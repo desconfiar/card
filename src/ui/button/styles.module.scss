@@ -1,0 +1,16 @@
+.button {
+    border-radius: 8px;
+    padding: 14px;
+
+    transition: 20ms all ease-in-out;
+
+    &:hover {
+        filter: brightness(1.025);
+    }
+}
+
+.button span {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
